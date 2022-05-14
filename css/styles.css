@@ -142,6 +142,10 @@ margin-right: 93px;
   padding-top: 32px;
   padding-bottom: 32px;
 }
+.auth-icon {
+  fill: currentColor;
+  margin-right: 5px;
+}
 
 .link.current {
   color: var(--accent-color);
@@ -263,7 +267,7 @@ padding: 10px 32px;
     }
 
   
-/* Секция Наша команда */
+/* Наша команда */
 .team-section {
   background-color: var(--team-bacgrount-color);
  
@@ -297,6 +301,7 @@ margin-bottom: 50px;
   font-size: 16px;
 line-height: 1.19;
 text-align:center;
+margin-bottom: 16px;
 
 color: var(--main-text-color);
 }
@@ -308,6 +313,72 @@ color: var(--main-text-color);
   background-color: #FFFFFF;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
+/* Иконки Наша команда */
+
+.team-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.team-link {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: var(--main-bacground-color);
+  border-radius: 50%;
+  }
+.team-link:hover {
+  background-color: var(--accent-color);
+}
+.team-icon {
+  fill: #AFB1B8;
+}
+.team-link:hover .team-icon 
+.team-link:focus .team-icon {
+  fill: #FFFFFF;
+}
+.items-icon:not(:last-child) {
+  margin-right: 10px;
+}
+/* Постоянные клиенты */
+.clients-title {
+  font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+    margin-bottom: 50px;
+}
+.clients {
+  display: flex;
+}
+
+.clients-item:not(:last-child){
+  margin-right: 30px;
+}
+.clients-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+}
+.clients-icon {
+  fill: #AFB1B8;
+}
+.clients-link:hover {
+  border-color: var(--accent-color);
+}
+.clients-link:hover .clients-icon, 
+.clients-link:focus .clients-icon {
+  fill: var(--accent-color);
 }
 /* Футер */
 /* логотип */
