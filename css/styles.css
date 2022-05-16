@@ -509,12 +509,9 @@ img {
   margin-right: 70px;
 }
 
-/* .social-join {
-  display: inline-block;
-  justify-content: start;
-  margin-right: auto;
-  align-items: center;
-} */
+.social-join {
+  box-sizing: border-box;
+}
 
 .caption {
   font-style: normal;
