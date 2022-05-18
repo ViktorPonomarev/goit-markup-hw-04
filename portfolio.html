@@ -29,7 +29,7 @@
       <div class="container">
         <div class="header-nav">
           <nav class="navigation">
-            <a lang="en" href="./index.html" class="logo link"
+            <a lang="en" href="./index.html" class="logo-header link"
               >Web<span class="logo-title">Studio</span></a
             >
             <!-- /* site-nav */ -->
@@ -46,10 +46,20 @@
           <!-- auth-nav -->
           <ul class="auth-nav list">
             <li class="item-desktop">
-              <a href="mailto:info@devstudio.com" class="header-link link">info@devstudio.com</a>
+              <a href="mailto:info@devstudio.com" class="header-link link">
+                <svg class="auth-icon" width="16px" height="12px">
+                  <use href="./images/sprite.svg#icon-envelope"></use>
+                </svg>
+                info@devstudio.com</a
+              >
             </li>
             <li class="item-tel">
-              <a href="tel:+380961111111" class="header-link link">+38 096 111 11 11</a>
+              <a href="tel:+380961111111" class="header-link link">
+                <svg class="auth-icon" width="10px" height="16px">
+                  <use href="./images/sprite.svg#icon-smartphone"></use>
+                </svg>
+                +38 096 111 11 11</a
+              >
             </li>
           </ul>
         </div>
@@ -62,40 +72,27 @@
         <div class="container">
           <ul class="control list">
             <li class="control-btn">
-
               <button type="button" class="btn-portfolio">Всё</button>
-
-            </li>
+              </li>
             <li class="control-btn">
-
-                <button type="button" class="btn-portfolio">Веб-сайты</button>
-
-            </li>
+              <button type="button" class="btn-portfolio">Веб-сайты</button>
+              </li>
             <li class="control-btn">
-
-                <button type="button" class="btn-portfolio">Приложения</button>
-
-            </li>
-              <li class="control-btn"><button type="button" class="btn-portfolio">Дизайн</button>
-
+              <button type="button" class="btn-portfolio">Приложения</butto>
+              </li>
+              <li class="control-btn"><button type="button" class="btn-portfolio">Дизайн</butto>
               </li>
               <li class="control-btn">
-
                 <button type="button" class="btn-portfolio">Маркетинг</button>
-
-            </li>
+                </li>
           </ul>
-            
-            
-       
+          
+          <!-- Товары и услуги -->
 
-        <!-- Товары и услуги -->
-
-        
           <h1 class="visually-hidden">Заголовок секции</h1>
           <ul class="features list">
             <li class="features-item">
-              <a class="icon link">
+              <a class="icon link" href="#">
                 <img src="./images/img-portfolio/img-1.jpg" alt="Ноутбук" width="370" height="294" />
               <div class="features-heading">
                 <h2 class="features-items">Технокряк</h2>
@@ -106,7 +103,7 @@
             
 
             <li class="features-item">
-              <a class="icon link">
+              <a class="icon link" href="#">
               <img
                 src="./images/img-portfolio/img-2.jpg"
                 alt="Баскетбол"
@@ -122,7 +119,7 @@
               </a>
             </li>
             <li class="features-item">
-              <a class="icon link">
+              <a class="icon link" href="#">
               <img src="./images/img-portfolio/img-3.jpg" alt="Рыба" width="370" height="294" />
               <div class="features-heading">
                 <h2 lang="en" class="features-items"><span lang="ru">Ресторан</span> Seafood</h2>
@@ -131,7 +128,7 @@
               </a>
             </li>
             <li class="features-item">
-              <a class="icon link">
+              <a class="icon link" href="#">
               <img src="./images/img-portfolio/img-4.jpg" alt="Наушники" width="370" height="294" />
               <div class="features-heading">
                 <h2 lang="en" class="features-items"><span lang="ru">Проект</span> Prime</h2>
@@ -140,7 +137,7 @@
               </a>
             </li>
             <li class="features-item">
-              <a class="icon link">
+              <a class="icon link" href="#">
               <img src="./images/img-portfolio/img-5.jpg" alt="Боксы" width="370" height="294" />
               <div class="features-heading">
                 <h2 lang="en" class="features-items"><span lang="ru">Проект</span> Boxes</h2>
@@ -149,7 +146,7 @@
               </a>
             </li>
             <li class="features-item">
-              <a class="icon link">
+              <a class="icon link" href="#">
               <img
                 src="./images/img-portfolio/img-6.jpg"
                 alt="Монитор ПК"
@@ -163,7 +160,7 @@
               </a>
             </li>
             <li class="features-item">
-              <a class="icon link">
+              <a class="icon link" href="#">
               <img src="./images/img-portfolio/img-7.jpg" alt="Журнал" width="370" height="294" />
               <div class="features-heading">
                 <h2 lang="en" class="features-items">
@@ -174,7 +171,7 @@
               </a>
             </li>
             <li class="features-item">
-              <a class="icon link">
+              <a class="icon link" href="#">
               <img
                 src="./images/img-portfolio/img-8.jpg"
                 alt="Бирка с одежды"
@@ -188,7 +185,7 @@
               </a>
             </li>
             <li class="features-item">
-              <a class="icon link">
+              <a class="icon link" href="#">
               <img
                 src="./images/img-portfolio/img-9.jpg"
                 alt="Работа за ноутбуком"
@@ -209,10 +206,11 @@
         
       
 
-    <!-- Футер -->
+      <!-- Футер -->
     <footer class="footer-section">
-      <div class="container">
-        <a lang="en" href="./index.html" class="logo link"
+      <div class="footer-social container">
+      <div class="footer-aside">
+        <a lang="en" href="./index.html" class="logo-footer link"
           >Web<span class="logo-title-span">Studio</span></a
         >
 
@@ -235,7 +233,67 @@
             </li>
           </ul>
         </address>
-      </div>
-    </footer>
+        </div>
+
+        <div class="social-join">
+          <h3 class="caption">ПРИСОЕДИНЯЙТЕСЬ</h3>
+          <ul class="social list">
+            <li class="social-item">
+              <a
+                class="social-link link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="иконка instagram"
+              >
+                <svg class="social-icon" width="20px" height="20px">
+                  <use href="./images/sprite.svg#icon-instagram-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a
+                class="social-link link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="иконка twitter"
+              >
+                <svg class="social-icon" width="20px" height="20px">
+                  <use href="./images/sprite.svg#icon-twitter-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a
+                class="social-link link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="иконка facebook"
+              >
+                <svg class="social-icon" width="20px" height="20px">
+                  <use href="./images/sprite.svg#icon-facebook-3"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a
+                class="social-link link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="иконка linkedin"
+              >
+                <svg class="social-icon" width="20px" height="20px">
+                  <use href="./images/sprite.svg#icon-linkedin-4"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      
+    </div>
+</footer>
   </body>
 </html>

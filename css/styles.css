@@ -17,7 +17,6 @@
 body {
   font-family: var(--main-font);
   font-size: 14px;
-  /* line-height: 35px; */
   letter-spacing: 0.03em;
   color: var(--main-text-color);
   background-color: var(--main-bacground-color);
@@ -125,7 +124,7 @@ img {
 
 
 /* Логотип */
-.logo {
+.logo-header {
   display: block;
   margin-right: 93px;
   color: var(--accent-color);
@@ -154,7 +153,7 @@ img {
 
 .auth-icon {
   fill: currentColor;
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 .link.current {
@@ -169,6 +168,8 @@ img {
 
 /* auth-nav */
 .header-link {
+  display: flex;
+  align-items: center;
   color: var(--main-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -445,8 +446,9 @@ img {
   fill: #AFB1B8;
 }
 
-.clients-link:hover {
-  fill: var(--team-bacgrount-color)
+.clients-link:hover,
+.clients-link:focus {
+  border-color: var(--accent-color);
 }
 
 .clients-link:hover .clients-icon,
@@ -461,8 +463,15 @@ img {
 
 }
 
-.logo {
+.logo-footer {
   margin-bottom: 20px;
+  display: block;
+  margin-right: 93px;
+  color: var(--accent-color);
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 .logo-title-span {
@@ -514,11 +523,9 @@ img {
 }
 
 .caption {
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  text-align: start;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
   margin-bottom: 20px;
@@ -526,8 +533,6 @@ img {
 
 .social {
   display: flex;
-  justify-content: start;
-  align-items: center;
 }
 
 .social-item:not(:last-child) {
